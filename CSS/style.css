@@ -1,0 +1,1098 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+h2,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+/* =================================
+             COmmon Css End 
+=====================================*/
+/* =================================
+             Manu Part Satrt
+=====================================*/
+#main_manu{
+   width: 100%;
+   padding: 30px 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 999;
+}
+#main_manu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 35px;
+}
+#main_manu ul li a span{
+    padding-left: 8px ;
+}
+.manu_contact a{
+    font-family: "Inter", sans-serif;
+    padding: 14px 28px;
+    border-radius: 6px;
+    color: white;
+}
+.button{
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    background-color: black;
+}
+.manu_button{
+    padding: 14px 28px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500;
+    border-radius: 7px;
+}
+#banner{
+    padding: 192px 0 92px;
+    background-size: cover;
+}
+#banner .banner_button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#banner .heading h1{
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#banner .paragraph p{
+    width: 780px;
+    height: 72px;
+    padding-top: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-left: 260px;
+}
+#banner .search_button .input{
+    padding: 30px 229px 29px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 370px;
+    margin-top: 40px;
+    position: absolute;
+}
+#banner .search_button .output{
+    padding: 30px 30px 30px 30px;
+    background-color: #6A55EA;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+#banner .banner_icon{
+    margin-top: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+/* =======================================================
+                    Content Part
+====================================================== */
+.content_heading {
+    margin-top: 70px;
+}
+.content_heading p{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #7968EF;
+    text-align: center;
+}
+.content_heading h3{
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    text-align: center;
+}
+#content .frame_area p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 90px;
+}
+#content .frame_area img{
+    margin-top: 90px;
+}
+#content .con_topic{
+    width: 690px;
+    height: 195px;
+    background-color: #F0EDFF;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 36px;
+    margin-top: 75px;
+}
+#content .con_img img{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin: 38px  37px;
+}
+#content .con_me{
+    padding: 36px 0px 36px 0px;
+}
+.con_me h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+}
+.con_me p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #29313D;
+    text-align: left;
+}
+#content .con_topictwo{
+    width: 690px;
+    height: 195px;
+    background-color: #FEF6EC;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 36px;
+}
+#content .con_imgtwo img{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin: 38px  37px;
+}
+.con_metwo h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+}
+.con_metwo p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #29313D;
+    text-align: left;
+}
+.con_metwo{
+    padding: 36px 0px 36px 0px;
+}
+#content .con_topic3{
+    width: 690px;
+    height: 195px;
+    background-color: #E8FCF2;
+    display: flex;
+    border-radius: 15px;
+}
+#content .con_img3 img{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin: 38px  37px;
+}
+.con_me3 h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+}
+.con_me3 p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #29313D;
+    text-align: left;
+}
+.con_me3{
+    padding: 36px 0px 36px 0px;
+}
+/* ====================================================
+               Discover Part
+===================================================== */
+#discover h4{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #7968EF;
+    margin-top: 120px;
+}
+#discover h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 10px;
+}
+#discover p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+#discover .right_img{
+    margin-top: 125px;
+    margin-left: 90px;
+}
+#discover{
+    padding-bottom: 140px;
+}
+/* =================================================
+                  Content Part
+================================================= */
+#select{
+    width: 100%;
+    height: 1076px;
+    background-color: #F1FBFB;
+}
+#select .cont_img{
+    display: flex;
+}
+#select .head_part p{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #7968EF;
+    text-align: center;
+    margin-top: 120px;
+}
+#select .head_part h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+#select .content_item {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+
+}
+#select .cont_head h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 24px;
+
+}
+#select .cont_head p{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 48px;
+}
+#select .mewmew{
+    width: 199px;
+    height: 78px;
+    border-radius: 15px;
+    background-color: #6A55EA;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-color: #6A55EA;
+}
+.content_img{
+    display: flex;
+    margin-top: 83px;
+    margin-left: 100px;
+}
+.cont_head{
+    margin-left:129px;
+}
+/* ===================================================
+                  CASE STUDY
+====================================================== */
+#case .case_head{
+    display: flex;
+}
+.case_head .amarbutton{
+    margin-left: 865px;
+}
+.case_study p{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #7968EF;
+    margin-top: 120px;
+    margin-bottom: 14px;
+}
+.case_head h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 39px;
+    color: #29313D;
+}
+#case .case_review .first_case{
+    font-weight: 450px;
+    height: 511px;
+    margin-top: 60px;
+
+}
+.first_case h3{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #29313D;
+    margin-top: 24px;
+}
+.first-case p{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 14px;
+    color: #29313D;
+}
+#case .case_review{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 120px;
+}
+/* ============================================
+                  Price Section 
+=============================================== */
+#price .pricing_box{
+    display: flex;
+    margin-left: 100px;
+}
+#price .price_heading{
+    margin-left: 50px;
+}
+#price .price_heading p{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #7968EF;
+    text-align: center;
+}
+#price .price_heading h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #29313D;
+    margin-bottom: 60px;
+}
+.first_box .box_head{
+    width: 290px;
+    height: 14px;
+    background-color: #D2EAFD ;
+    border-radius: 20px;
+}
+#price .first_box{
+    width: 300px;
+}
+#price .first_box .first_row h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:  #29313D;
+    margin-top: 24px;
+    margin-bottom: 73px;
+    margin-left: 15px;
+}
+#price .second_box{
+    width: 300px;
+}
+#price .second_box .box_head_two{
+    width: 290px;
+    height: 14px;
+    background-color: #323232;
+    border-radius: 20px;
+}
+#price .second_box .second_row h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    text-align: center;
+    margin-top: 24px;
+}
+#price .second_box .second_row p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:  #7b7d80;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 60px;
+}
+#price .third_box{
+    width: 300px;
+}
+#price .third_box .box_head_three{
+    width: 290px;
+    height: 14px;
+    background-color:  #43CB83;
+    border-radius: 20px;
+}
+#price .third_box .third_row h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    text-align: center;
+    margin-top: 24px;
+}
+#price .third_box .third_row p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:  #7b7d80;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 60px;
+}
+#price .four_box{
+    width: 300px;
+}
+#price .four_box .box_head_four{
+    width: 290px;
+    height: 14px;
+    background-color:  #845A9F;
+    border-radius: 20px;
+}
+#price .four_box .four_row h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+    text-align: center;
+    margin-top: 24px;
+}
+#price .four_box .four_row p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:  #7b7d80;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 60px;
+}
+#barone .bar{
+    background-color: #EFF4F8;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 100px;
+}
+#barone .bar .first_bar p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 24px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .bar .first_bar p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 270px;
+    top: 0;
+    bottom: 0;
+}
+#barone .bar .second_bar p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 180px;
+    margin-top: 29px;
+    position: relative;
+
+} 
+#barone .bar .second_bar p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+}
+#barone .bar .third_bar p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 210px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .bar .third_bar p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 175px;
+    top: 0;
+    bottom: 0;
+}
+#barone .bar .four_bar p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 230px;
+    margin-top: 29px;
+}
+#barone .amar_bary{
+    background-color: #FFFFFF;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 100px;
+}
+#barone .amar_bary .first_bary p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 24px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_bary .first_bary p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 270px;
+    top: 0;
+    bottom: 0;
+}
+#barone .amar_bary .second_bary p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 270px;
+    margin-top: 29px;
+    position: relative;
+
+} 
+#barone .amar_bary .second_bary p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 187px;
+    top: 0;
+    bottom: 0;
+}
+#barone .amar_bary .third_bary p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 255px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_bary .third_bary p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 160px;
+    top: 0;
+    bottom: 0;
+}
+#barone .amar_bary .four_bary p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:  #7b7d80;
+    margin-left: 263px;
+    margin-top: 29px;
+}
+#barone .amar_bar{
+    background-color: #EFF4F8;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 90px;
+    position: relative;
+}
+#barone .amar_bar .first_barx p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 33px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_bar .first_barx p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 271px;
+    top: 0;
+    bottom: 0;
+}
+#barone .second_barx .tickly{
+    margin-left: 230px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .third_barx .ticklytwo{
+    margin-left: 830px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .four_barx .ticklythree{
+    margin-left: 533px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .amar_baryz{
+    background-color: #FFFFFF;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 90px;
+    position: relative;
+}
+#barone .amar_baryz .first_barz p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 33px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_baryz .first_barz p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 271px;
+    top: 0;
+    bottom: 0;
+}
+#barone .second_barz .tickx{
+    margin-left: 282px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .third_barz .ticky{
+    margin-left: 585px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .four_barz .tickz{
+    margin-left: 880px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .amar_barq{
+    background-color: #EFF4F8;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 90px;
+    position: relative;
+}
+#barone .amar_barq .first_barq p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 33px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_barq .first_barq p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 271px;
+    top: 0;
+    bottom: 0;
+}
+#barone .second_barq .ticklq{
+    margin-left: 168px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .third_barq .ticklytwoq{
+    margin-left: 767px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .four_barq .ticklythreeq{
+    margin-left: 472px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .amar_barw{
+    background-color:#FFFFFF;
+    width: 1220px;
+    height: 95px;
+    display: flex;
+    margin-left: 90px;
+    position: relative;
+}
+#barone .amar_barw .first_barw p{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    margin-left: 33px;
+    margin-top: 29px;
+    position: relative;
+}
+#barone .amar_barw .first_barw p::after{
+    content: '';
+    width: 1px;
+    height: 50px;
+    background-color: 
+    #D7E6F9;
+    display: block;
+    position: absolute;
+    left: 271px;
+    top: 0;
+    bottom: 0;
+}
+#barone .second_barw .ticklw{
+    margin-left: 322px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .third_barw .ticklytwow{
+    margin-left: 922px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .four_barw .ticklythreew{
+    margin-left: 627px;
+    position: absolute;
+    margin-top: 34px;
+}
+#barone .signup{
+    display: flex;
+}
+#barone .signup .sundor{
+    width: 500px;
+    height: 95px;
+    background-color: #EFF4F8;
+    margin-left: 90px;
+}
+#barone .signup .sundortwo{
+    width: 303px;
+    height: 95px;
+    background-color: #323232;
+}
+#barone .signup .sundortwo a{
+    width: 302px;
+    height: 95px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 34px;
+}
+#barone .signup .sundorfour{
+    width: 300px;
+    height: 95px;
+    background-color: #43CB83;
+}
+#barone .signup .sundorfour a{
+    width: 300px;
+    height: 95px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 34px;
+}
+#barone .signup .sundorthree{
+    width: 290px;
+    height: 95px;
+    background-color: #845A9F;
+}
+#barone .signup .sundorthree a{
+    width: 301px;
+    height: 95px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 34px;
+}
+/* =================================================
+              Analysis Part 
+  ================================================*/
+  #free .free_img{
+    margin-top: 200px;
+    background-color: rgb(40, 40, 92);
+    height: 500px;
+    width: 1520px;
+    border-radius: 80px;
+    margin-left: 45px;
+    background-image: url(../images/Mask\ Group.png);
+ }
+ #free .free_img h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF ;
+    font-size: 49px;
+    font-weight: 600;
+    margin-top: 120px;
+ }
+ #free .free_img p{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    color: #FFFFFF ;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 25px;
+ }
+ #free .search_button .input{
+    padding: 30px 229px 29px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 370px;
+    margin-top: 40px;
+    position: absolute;
+}
+#free .search_button .output{
+    padding: 30px 30px 30px 30px;
+    background-color: #6A55EA;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+/* ==================================================
+                Foteer Part
+====================================================== */
+#footer{
+    background-color: #F1FBFB;
+    width: auto;
+    height: 700px;
+    margin-top: 150px;
+}
+#footer .footerx{
+    display: flex;
+}
+#footer .footer_one img{
+    margin-top: 140px;
+}
+#footer .footer_one p{
+    margin-top: 44px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    color: #29313D ;
+}
+#footer .footer_two{
+   margin-top: 140px;
+   margin-left: 120px;
+}
+#footer .footer_two ul{
+    padding-left: 0px;
+}
+#footer .footer_two h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+#footer .footer_two ul{
+    margin-top: 48px;
+}
+#footer .footer_two ul li a{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:  #29313D;
+    margin-top: 30px;
+}
+#footer .footer_three{
+    margin-top: 140px;
+    margin-left: 30px;
+}
+#footer .footer_three ul{
+    padding-left: 0px;
+}
+#footer .footer_three h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+#footer .footer_three ul{
+    margin-top: 48px;
+}
+#footer .footer_three ul li a{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:  #29313D;
+    margin-top: 30px;
+}
+#footer .footer_four{
+    margin-top: 140px;
+    margin-left:70px;
+}
+#footer .footer_four ul{
+    padding-left: 0px;
+}
+#footer .footer_four h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+#footer .footer_four ul{
+    margin-top: 48px;
+}
+#footer .footer_four ul li a{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:  #29313D;
+    margin-top: 30px;
+}
+#footer .copy_right{
+    display: flex;
+    margin-top: 80px;
+
+}
+#footer .copy_right h4{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+}
+#footer .copy_right h5{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    margin-left: 650px;
+}
+#footer .copy_right h6{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #29313D;
+    margin-left: 60px;
+}
+
+/* =====================================================================================
+================================END END END END END END================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
